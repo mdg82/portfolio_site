@@ -1,0 +1,137 @@
+/* Page Styles
+================================ */
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font: normal 1.5em/1.5 sans-serif;
+	color: #000;
+	background-color: #908fb8;
+}
+
+.navbar-default {
+	background-color: #908fb8;
+	border-color: #908fb8;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #12124e;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	font-weight: bold;
+	background-color: #908fb8;
+	color: #fff;
+    
+}
+
+/* Main Layout Styles
+================================ */
+
+
+.whitebox {
+	background-color: #fff;
+	position: relative;
+	display: block;
+	top: -20px;
+	box-shadow: 0px -1px 5px #000;
+}
+
+.save-donate,
+.volunteer,
+.events,
+.pet-of-the-week{
+	color: #12124e;
+	text-align: center;
+	font-size: 1.95em;
+	font-family:  "Arial Black", Gadget, sans-serif;
+	text-transform: uppercase;
+}
+
+.home-border {
+	border-bottom: 2px dotted #12124e;
+	padding-bottom: 5px;
+}
+
+footer {
+	height: 100px;
+	background-color: #12124e;
+	color: #fff;
+	font-size: .75em;
+}
+
+.copyright {
+	padding-top: 25px;
+	font-size: 1.15em;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-nav {
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding-top: 25px;
+	text-align: center;
+}
+
+.foot-nav li {
+	display: inline;
+	padding-left: 30px;
+	font-size: 1.15em;
+}
+
+.foot-nav li a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.foot-nav li a:hover {
+	text-decoration: none;
+}
+
+/* Images
+================================ */
+
+.donate {
+	width: 50%;
+	margin: -5px auto 0;
+	
+}
+
+.dog,
+.cat{
+	display: inline-block;
+	float: left;
+	padding-right: 10px;
+	width: 35%;
+	border-radius: 100%;
+}
+
+.scrollup {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    display: none;
+    /*text-indent: -9999px;*/
+    /*background: url('../img/arrow.svg') no-repeat;*/
+    /*background-color: #000;*/
+    
+}

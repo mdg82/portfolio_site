@@ -1,0 +1,177 @@
+/*General*/
+body{
+  height: 100%;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  /*background: #56ab2f;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to top, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to top, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/*.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container {
+     position: relative;
+     top: 50px;
+  }*/
+/*h1, h2, h3, h4, h5, h6 {
+ font-family: 'Playfair Display', sans-serif; 
+}*/
+/*Navigation*/
+.navbar-default{
+ background-color: #000;
+ border-color: #000;
+ border-radius: 0;
+ height: 80px;
+}
+.navbar-collapse {
+  background: #000;
+}
+.navbar-brand {
+  margin: 12px;
+}
+#logo {
+  font-size: 30px;
+  color: #4a912b;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #4a912b;
+  margin: 12px 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #b1e29d;
+}
+.navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+      color: #b1e29d;
+      background: #000;
+ }
+section.module.parallax {
+    /* Set a specific height */
+    height: 765px;
+/* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1, h3 {
+  color: #001a00;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20px;
+}
+section.module.parallax h1 {
+  padding-top: 275px;
+  line-height: 60px;
+  font-size: 70px;
+}
+section.module.parallax-1 {
+  /* The image used */
+    background-image: url('../img/pink-flower.jpg');
+}
+section.module.parallax-2 {
+  background-image: url('../img/purple-flower.jpg');
+}
+section.module.parallax-3 {
+  background-image: url('../img/flowers.jpg');
+  }
+section.module.content {
+  padding: 40px 0;
+  color: black;
+  background-color: #006600;
+}
+.heading {
+  opacity: 0;
+}
+
+/*Header*/
+/*.header-content {
+  padding: 185px 0;
+  /*background-color: #4a912b;
+}
+.name {
+  margin-top: 95px;
+  font-size: 50px;
+}
+.header-line hr {
+  width: 80%;
+}
+.header-photo {
+  padding: 15px;
+}
+#profile-photo {
+  display: block;
+  width: 50%;
+  border-radius: 100%;
+  border: 1px #000 solid;
+  margin: 0 auto;
+}
+/*About section
+.about-content{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #32641b;
+  }
+.heading {
+  padding: 15px 0;
+  font-size: 40px;
+}
+#about-info {
+ padding: 20px;
+  /*padding: 15px;
+}
+.skills{
+  background-color: #000;
+  padding: 5px 15px;
+}
+/*Portfolio
+.portfolio {
+  background-color: #1e3c10;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.caption {
+  text-align: center;
+  padding: 10px 0;
+}
+
+/*Contact*/
+/*.contact{
+background-color: #14290a;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+.form-horizontal {
+  margin: 20px;
+}*/
+/*Footer
+ .footer-content {
+   background-color: #000;
+   height: 115px;
+  }
+.copyright {
+  float:right;
+  font-size: 12px;
+  padding-top: 20px;
+}
+.contact i {
+  padding-left: 15px;
+  padding-top: 15px;
+  float:left;
+}

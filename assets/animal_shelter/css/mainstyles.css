@@ -1,0 +1,100 @@
+/* Page Styles
+================================ */
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font: normal 1em/1.5 sans-serif;
+	color: #222;
+	background-color: #efefef;
+}
+
+img{
+	max-width: 100%;
+}
+/* Main Layout Styles
+================================ */
+
+.main-header {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 300px;
+	background-color: #efefef;
+}
+
+.main-logo {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.4em;
+}
+
+.main-nav {
+	list-style-type: none;
+}
+
+.main-nav a {
+	display: block;
+	text-align: left;
+	border-radius: 5px;
+	color: #1a1653;
+	text-decoration: none;
+	margin-top: 15px;
+	padding: 10px 20px;
+}
+
+.main-footer {
+	text-align: center;
+	height: 200px;
+	margin-top: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+ 	background-color: #b7c0c7;
+}
+
+@media (min-width: 768px) { 
+
+	/* Main Layout Styles
+	================================ */
+
+	body {
+		padding-top: 75px;
+	}
+	.main-header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+	.main-nav {
+		text-align: right;
+	}
+	.main-nav li {
+		margin-top: 6px;
+		margin-left: 10px;
+		display: inline-block;
+	}
+	.main-banner {
+		background: #dfe2e4;
+		text-align: center;
+		padding: 50px 15px;
+		margin-bottom: 20px;
+	}
+
+	/* Imagery
+	================================ */
+
+	.feat-img {
+		width: 45%;
+		float: left;
+		margin: 5px 20px 10px 0;
+	}
+
+}
+
+@media (min-width: 1px) and (max-width: 767px)  {
+	.main-nav li {
+		margin-top: 12px;
+	}
+}

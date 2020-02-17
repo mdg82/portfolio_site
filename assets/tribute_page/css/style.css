@@ -1,0 +1,51 @@
+body {
+  background-color: #cc9966;
+  font-family: 'Palatino', sans-serif;
+}
+
+#title, #subtitle {
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 3rem;
+}
+
+#img-div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+#timeline, cite, p {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #fff;
+  opacity: 0.6;
+  width: 40%;
+  margin: 0 auto;
+  padding: 2%;
+}
+
+ul li {
+  padding: 1%;
+}
+
+.year {
+  font-family: 'Rye', cursive;
+  font-size: 2rem;
+}
+
+#more_info {
+  padding: 1%;
+  font-size: 1.25rem;
+}

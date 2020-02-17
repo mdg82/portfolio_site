@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Melanie Green | Front-End Web Developer</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css">
+    <meta name="description" content="Melanie Green | Front-End Web Developer"
+    <meta name="keywords" content="Melanie Green, Front-End Web Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/818a045d75.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div id="text_bgcolor">
+      <h1>Melanie Green</h1>
+      <h3><em>Front-End Web Developer</em></h3>
+      </div>
+    </header>
+
+    <!--Nav bar-->
+    <nav>
+      <button class="tablink" onclick="openPage('About', this, '#1f7a1f')">About</button>
+      <button class="tablink" onclick="openPage('Portfolio', this, '#0059b3')" id="defaultOpen">Portfolio</button>
+      <button class="tablink" onclick="openPage('Contact', this, '#732673')">Contact</button>
+    </nav>
+
+    <!--Main content-->
+    <section id="About" class="tabcontent">
+      <h1>About Me</h1>
+      <div id="about_info">
+    <div id="about_img">
+    <img id="header_img" src="img/melanie.png" alt="Me" />
+  </div>
+  <div id="intro">
+    <p>Hi, I'm Melanie Green! Let's just say me and the outlaw Jesse James would have been practically neighbors here in Kearney, MO where I reside.
+    I have always considered myself technically creative, which is why I have always liked the computer and camera.
+    My first interest was photography and have always loved taking nature photos, and got interested in sports photography when i worked as a
+    sports newspaper photographer after college. I strayed away from photography and tried my hand at banking, but it did not suit me, and
+    wanted to return to my passion of being technically creative. Nowadays, I am in pursuit of becoming a front-end web developer, but willing
+    to take and use my own photos to include in my website projects whenever possible. I also like to work on retouching old photographs in
+    my spare time.<p>
+    </div>
+  </div>
+</section>
+
+<section id="Portfolio" class="tabcontent">
+  <h1>Portfolio</h1>
+  <div id="gallery">
+    <figure>
+      <a href="https://codepen.io/mdg82/pen/wvBXKgR">
+      <img class="gallery1" src="img/tribute_page.jpg" alt="John Wayne Tribute webpage" /></a>
+      <figcaption>John Wayne Tribute page (mock webpage)</figcaption>
+    </figure>
+    <figure>
+      <a href="https://codepen.io/mdg82/pen/LYErpWL">
+      <img class="gallery1" src="img/survey_form.jpg" alt="Halloween Candy Survey form webpage" /></a>
+      <figcaption>Halloween Candy Survey Form (mock webpage)</figcaption>
+    </figure>
+    <figure>
+      <img class="gallery1" src="img/product_page.jpg" alt="FCC Product webpage" />
+      <figcaption>Product mock webpage</figcaption>
+    </figure>
+    <figure>
+      <a href="http://www.melanie-green.info/animal_shelter/index.html">
+        <img class="gallery1" src="img/animalShelter.png" alt="Animal Shelter mock webpage" /></a>
+      <figcaption>Animal shelter Mock Webpage</figcaption>
+    </figure>
+    <figure>
+      <a href="http://www.elliottsscouts.net">
+      <img class="gallery1" src="img/elliotts_scouts.jpg" alt="Elliotts Scouts" /></a>
+      <figcaption>Elliott's Scouts</figcaption>
+    </figure>
+    <figure>
+      <a href="http://bobgreenquarterhorses.com/">
+      <img class="gallery1" src="img/quarter_horses.jpg" alt="Bob Green Quarter Horses" /></a>
+      <figcaption>Bob Green Quarter Horses</figcaption>
+    </figure>
+    <figure>
+      <a href="http://www.polosaddleclub.com/">
+      <img class="gallery1" src="img/saddle_club.jpg" alt="Polo Lone Riders Saddle Club" /></a>
+      <figcaption>Polo Lone Riders Saddle Club</figcaption>
+    </figure>
+    </div>
+    <!--<div>
+      <h2>Technologies</h2>
+    </div>-->
+</section>
+
+<section id="Contact" class="tabcontent">
+  <h1>Contact</h1>
+  <div id="contact_info">
+  <div class="column_form">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email">
+
+    <label for="subject">Comments</label>
+    <textarea id="comment" name="comment" placeholder="Comments" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="social_media">
+  <p class="social">Get in touch...</p>
+  <div class="icons">
+    <a href="https://github.com/mdg82">
+    <i class="fab fa-github" style="font-size:72px;color:#fff"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/melanie-green-50158974/">
+      <i class="fab fa-linkedin" style="font-size:72px;color:#fff"></i>
+    </a>
+    <a href="https://codepen.io/dashboard/">
+    <i class="fab fa-codepen" style="font-size:72px;color:#fff"></i>
+    </a>
+  </div>
+</div>
+</div>
+</section>
+
+<!--Footer-->
+<footer>
+  <p>Melanie Green &copy; 2020</p>
+</footer>
+<script src="js/script.js"></script>
+  </body>
+</html>

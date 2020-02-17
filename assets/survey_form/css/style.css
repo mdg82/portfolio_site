@@ -1,0 +1,135 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('https://www.charlottefive.com/wp-content/uploads/2017/10/candy.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: 'Creepster', cursive, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #000;
+}
+
+#title {
+  color: orange;
+  padding: 2%;
+  margin: 0;
+  text-align: center;
+}
+
+main {
+  margin: 1em auto;
+}
+
+#description {
+  padding: 1em;
+  text-align: center;
+}
+
+form {
+  padding-bottom: 2%;
+  background-color: orange;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.participant,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+#submit {
+  display: block;
+  margin: 2% auto;
+  background-color: #000;
+  border-radius: 4px;
+  color: orange;
+  font-size: 1em;
+  height: 50px;
+  width: 100px;
+  border: 1px solid #fff;
+  font-family: 'Creepster', cursive;
+
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio, .checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 833px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}

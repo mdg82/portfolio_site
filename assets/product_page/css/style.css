@@ -1,0 +1,333 @@
+* {
+  box-sizing: border-box;
+}
+
+video, iframe {
+  height: auto;
+  max-width: 560px;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #aea17e;
+  font-family: 'Palatino', serif;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+header {
+  /*background-color: #aea17e;*/
+  background-color: rgb(96, 64, 32);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.logo {
+  width: 30vw;
+  max-width: 100%;
+  padding: 1em 0;
+}
+
+#header_img {
+  max-width: 100%;
+}
+
+nav {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin-top: 2.5em;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vw;
+}
+#nav-bar ul li a {
+  padding: 0 1em;
+  color: #fff;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 600px;
+  margin: 5em 0;
+  background-image: url('https://storage.needpix.com/rsynced_images/arriere-plan-bois-panneaux-muraux-145641466140z.jpg');
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  text-shadow: 2px 2px 5px black;
+  color: white;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+input[type="email"] {
+  box-shadow: 2px 2px 5px;
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"],
+#pricing #small button,
+#pricing #midsize button,
+#pricing #large button {
+  box-shadow: 1px 1px 2px;
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #663300;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+  background-color: #cc6600;
+  transition: background-color 1s;
+}
+
+#products > h2 {
+  text-align: center;
+}
+
+#products > ul {
+  list-style-type: none;
+  /* grid styles */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-column-gap: 25px;
+}
+
+#products > ul > li > figure {
+  max-height: 220px;
+  border: 1px solid #fff;
+  border-radius: .3rem;
+  position: relative;
+  z-index: -1;
+}
+
+#products > ul > li > figure > img {
+  width: 100%;
+}
+
+#products > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(96, 64, 32);
+  color: #fff;
+  width: 100%;
+}
+
+#products > ul > li > figure > figcaption {
+  text-align: center;
+}
+
+.video_title {
+  text-align: center;
+}
+
+/*#video-player {
+  display: flex;
+  height: 315px;
+  justify-content: center;
+}*/
+
+#video-player > h2 {
+  text-align: center;
+}
+
+/*.icon {
+  color: crimson;
+  align-self: center;
+  justify-self: center;
+}
+
+.description {
+  max-width: 60vw;
+}*/
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#video-player {
+  display: flex;
+  height: 315px;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#pricing #small,
+#pricing #midsize,
+#pricing #large {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(65%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+#pricing #small .item,
+#pricing #midsize .item,
+#pricing #large .item {
+  background-color: rgb(96, 64, 32);
+  color: #fff;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#pricing #small h2,
+#pricing #midsize h2,
+#pricing #large h2 {
+  margin-top: 15px;
+}
+
+#pricing #small ol,
+#pricing #midsize ol,
+#pricing #large ol {
+  height: 200px;
+  margin: 15px 0;
+  text-align: left;
+}
+
+#pricing #small ol li,
+#pricing #midsize ol li,
+#pricing #large ol li {
+  padding: 5px 0;
+}
+
+#pricing #small button:hover,
+#pricing #midsize button:hover,
+#pricing #large button:hover {
+  background-color: #cc6600;
+  transition: background-color 1s;
+}
+
+footer {
+  background-color: rgb(96, 64, 32);
+  padding: 20px;
+  width: 100%;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 0;
+  width: 100%;
+}
+
+footer ul li {
+  padding: 0 10px;
+}
+
+footer ul li a {
+  color: #fff;
+}
+
+footer span {
+  display: flex;
+  font-size: 0.9em;
+  color: #fff;
+  justify-content: center;
+}*/
+
+/* Media Queries */
+@media (max-width: 320px) {
+  #nav-bar ul {
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  .description {
+    padding: 0 1em;
+  }
+  .logo {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .logo {
+    margin-top: 1em;
+  }
+  nav {
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  li {
+    padding-bottom: 5px;
+  }
+  ul {
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .description {
+    margin-top: 0;
+  }
+}
+@media (max-width: 800px) {
+  #nav-bar ul {
+    width: 100%;
+  }
+  #pricing {
+    flex-direction: column;
+  }
+  #pricing #hatchet,
+  #pricing #axe,
+  #pricing #double-headed {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
